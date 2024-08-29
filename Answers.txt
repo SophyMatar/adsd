@@ -1,0 +1,24 @@
+Sakila Database Homework:
+
+1. How many movies are there that begin with "A"? 
+Select * from film where title = %A%;
+2. What is the longest movie?
+Select * from film where MAX(time);
+3. What is the shortest movie? 
+Select * where MIN(time);
+4. What is the average length of a movie?
+SELECT AVG(length) FROM film;
+5. What is the most common rental rate for movies? 
+Count(int) in rental_rate
+6. How many movies are there for each rental rate? 
+SELECT COUNT(*) AS film, rental_rate
+FROM movies
+GROUP BY rental_rate;
+7. Of the years covered, what was the most popular year for movies?
+Count (year)
+8. What is the longest title for a movie? 
+select * from film where max(charcount)
+9. What are the 10 longest movies, listed alphabetically? 
+order by film)name ASC 
+10. Can you discover any other interesting facts about movie titles, in general? For instance, how many titles include the word "after"? 
+Select * from film where film_name = %amazing%;
