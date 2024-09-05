@@ -1,4 +1,4 @@
-Sakila Database Homework:
+ 
 
 1. How many movies are there that begin with "A"? 
 Select * from film where title = %A%;
