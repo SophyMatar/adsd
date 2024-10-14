@@ -22,3 +22,4 @@ select * from film where max(charcount)
 order by film)name ASC 
 10. Can you discover any other interesting facts about movie titles, in general? For instance, how many titles include the word "after"? 
 Select * from film where film_name = %amazing%;
+
