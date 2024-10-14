@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for
+Log from flask import Flask, render_template, request, redirect, url_for
 from peewee import *
 
 # Initialize database connection
